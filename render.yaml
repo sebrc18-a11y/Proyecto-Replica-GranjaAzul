@@ -1,7 +1,7 @@
 services:
   - type: web
     name: granja-azul
-    runtime: php          ← ESTO le dice a Render que use PHP
+    runtime: php
     plan: free
     buildCommand: echo "Building PHP application"
     startCommand: php -S 0.0.0.0:$PORT
