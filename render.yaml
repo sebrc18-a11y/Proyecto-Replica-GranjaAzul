@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: granja-azul
+    dockerfile: ./Dockerfile
+    dockerCompose: false
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: "8080"
