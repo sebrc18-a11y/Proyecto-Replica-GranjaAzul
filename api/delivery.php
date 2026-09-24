@@ -1,11 +1,11 @@
 <?php
 $tituloPagina = "Delivery | Granja Azul";
-$estiloPagina = 'CSS/estiloDelivery.css';
+$estiloPagina = '/CSS/estiloDelivery.css';
 include 'encabezado.php';
 ?>
 <main class="main-delivery">
     <a href="carrito.php" class="carta-delivery">CARTA DELIVERY</a>
-    <img src="Imagenes/flor-delivery.png" class="flor-delivery">
+    <img src="/Imagenes/flor-delivery.png" class="flor-delivery">
 
     <section class="paginas-delivery">
         <div class="enlaces-delivery">
@@ -35,7 +35,7 @@ include 'encabezado.php';
 
 </main>
 <div class="imagen-delivery">
-    <img src="Imagenes/fondo-delivery.png">
+    <img src="/Imagenes/fondo-delivery.png">
 </div>
 
 <?php include('footer.php'); ?>

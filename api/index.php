@@ -1,6 +1,6 @@
 <?php
 $tituloPagina = "Inicio | Granja Azul";
-$estiloPagina = 'CSS/estiloIndex.css';
+$estiloPagina = '/CSS/estiloIndex.css';
 include 'encabezado.php'; 
 ?>
 <main class="main-index">
@@ -9,13 +9,13 @@ include 'encabezado.php';
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="Imagenes/banner1.png" class="d-block w-100 slider-img" alt="Banner 1">
+                    <img src="/Imagenes/banner1.png" class="d-block w-100 slider-img" alt="Banner 1">
                 </div>
                 <div class="carousel-item">
-                    <img src="Imagenes/banner2.png" class="d-block w-100 slider-img" alt="Banner 2">
+                    <img src="/Imagenes/banner2.png" class="d-block w-100 slider-img" alt="Banner 2">
                 </div>
                 <div class="carousel-item">
-                    <img src="Imagenes/banner3.png" class="d-block w-100 slider-img" alt="Banner 3">
+                    <img src="/Imagenes/banner3.png" class="d-block w-100 slider-img" alt="Banner 3">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -34,7 +34,7 @@ include 'encabezado.php';
         <section>
             <div id="infoElPolo">
                 <div class="imgInformacion">
-                    <img src="Imagenes/local1.png" alt="Local El Polo">
+                    <img src="/Imagenes/local1.png" alt="Local El Polo">
                 </div>
                 <div class="textoInformativo">
                     <h2>Granja Azul Grill</h2>
@@ -64,7 +64,7 @@ include 'encabezado.php';
                     </p>
                 </div>
                 <div class="imgInformacion">
-                    <img src="Imagenes/local2.png" alt="Local Santa Clara">
+                    <img src="/Imagenes/local2.png" alt="Local Santa Clara">
                 </div>
             </div>
         </section>
@@ -72,7 +72,7 @@ include 'encabezado.php';
             <div id="infoSanIsidro">
                 <div class="textoInformativo">
                     <div class="imgInformacion">
-                        <img src="Imagenes/local3.png" alt="Local Santa Clara">
+                        <img src="/Imagenes/local3.png" alt="Local Santa Clara">
                     </div>
                 </div>
                 <div class="textoInformativo">
@@ -115,7 +115,7 @@ include 'encabezado.php';
                 <!-- Slide 1 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide1.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide1.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -133,7 +133,7 @@ include 'encabezado.php';
                 <!-- Slide 2 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide2.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide2.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -151,7 +151,7 @@ include 'encabezado.php';
                 <!-- Slide 3 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <video src="Imagenes/carousel-index/Slide3.mp4" autoplay loop muted playsinline
+                        <video src="/Imagenes/carousel-index/Slide3.mp4" autoplay loop muted playsinline
                             class="object-fit-cover"></video>
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
@@ -169,7 +169,7 @@ include 'encabezado.php';
                 <!-- Slide 4 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide4.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide4.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -184,7 +184,7 @@ include 'encabezado.php';
                 <!-- Slide 5 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide5.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide5.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -199,7 +199,7 @@ include 'encabezado.php';
                 <!-- Slide 6 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide6.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide6.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -215,7 +215,7 @@ include 'encabezado.php';
                 <!-- Slide 7 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide7.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide7.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -233,7 +233,7 @@ include 'encabezado.php';
                 <!-- Slide 8 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide8.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide8.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -248,7 +248,7 @@ include 'encabezado.php';
                 <!-- Slide 9 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide9.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide9.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -264,7 +264,7 @@ include 'encabezado.php';
                 <!-- Slide 10 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide10.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide10.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -282,7 +282,7 @@ include 'encabezado.php';
                 <!-- Slide 11 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide11.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide11.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -299,7 +299,7 @@ include 'encabezado.php';
                 <!-- Slide 12 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <video src="Imagenes/carousel-index/Slide12.mp4" autoplay loop muted playsinline
+                        <video src="/Imagenes/carousel-index/Slide12.mp4" autoplay loop muted playsinline
                             class="object-fit-cover"></video>
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
@@ -320,7 +320,7 @@ include 'encabezado.php';
                 <!-- Slide 1 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide1.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide1.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -338,7 +338,7 @@ include 'encabezado.php';
                 <!-- Slide 2 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide2.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide2.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -356,7 +356,7 @@ include 'encabezado.php';
                 <!-- Slide 3 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <video src="Imagenes/carousel-index/Slide3.mp4" autoplay loop muted playsinline
+                        <video src="/Imagenes/carousel-index/Slide3.mp4" autoplay loop muted playsinline
                             class="object-fit-cover"></video>
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
@@ -374,7 +374,7 @@ include 'encabezado.php';
                 <!-- Slide 4 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide4.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide4.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -389,7 +389,7 @@ include 'encabezado.php';
                 <!-- Slide 5 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide5.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide5.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -404,7 +404,7 @@ include 'encabezado.php';
                 <!-- Slide 6 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide6.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide6.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -420,7 +420,7 @@ include 'encabezado.php';
                 <!-- Slide 7 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide7.png" class="object-fit-cover w-100 h-100">
+                        <img src="I/magenes/carousel-index/slide7.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -438,7 +438,7 @@ include 'encabezado.php';
                 <!-- Slide 8 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide8.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide8.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -453,7 +453,7 @@ include 'encabezado.php';
                 <!-- Slide 9 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide9.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide9.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -469,7 +469,7 @@ include 'encabezado.php';
                 <!-- Slide 10 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide10.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide10.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -487,7 +487,7 @@ include 'encabezado.php';
                 <!-- Slide 11 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <img src="Imagenes/carousel-index/slide11.png" class="object-fit-cover w-100 h-100">
+                        <img src="/Imagenes/carousel-index/slide11.png" class="object-fit-cover w-100 h-100">
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
                             <div class="custom-content-inner">
@@ -504,7 +504,7 @@ include 'encabezado.php';
                 <!-- Slide 12 -->
                 <div class="card-wrapper">
                     <div class="ratio ratio-1x1 custom-card">
-                        <video src="Imagenes/carousel-index/Slide12.mp4" autoplay loop muted playsinline
+                        <video src="/Imagenes/carousel-index/Slide12.mp4" autoplay loop muted playsinline
                             class="object-fit-cover"></video>
                         <div class="custom-overlay"></div>
                         <div class="custom-content">
