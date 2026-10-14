@@ -1,0 +1,233 @@
+:root {
+  --color_principal: rgba(0, 51, 108, 1);
+  --fondo-principal: white;
+  --fondo-secundario: #EFEFEF;
+}
+
+@font-face {
+  font-family: 'Beyond Infinity';
+  src: url('../Fuente/BeyondInfinity.woff2') format('woff2'),
+    url('../Fuente/BeyondInfinity.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Banda';
+  src: url('../Fuente/BandaRegular.woff2') format('woff2'),
+    url('../Fuente/BandaRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Delightis';
+  src: url('../Fuente/Delightis.woff2') format('woff2'),
+    url('../Fuente/Delightis.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Cartas Salon */
+
+.main-cartasSalon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 30px 0;
+  background-color: var(--fondo-secundario);
+}
+
+.cuadro-cartas-Salon {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 25px;
+  background-color: var(--fondo-principal);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.titulo-Salon {
+  font-family: 'Delightis';
+  font-size: 46px;
+  color: var(--color_principal);
+  border-bottom: 3px solid var(--color_principal);
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.grid-productos-Salon {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.producto-Salon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  background-color: var(--fondo-principal);
+  border: 1px solid var(--fondo-secundario);
+  padding: 15px;
+  border-radius: 6px;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.producto-Salon:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.imagen-producto-Salon {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.nombre-producto-Salon {
+  font-family: 'Banda', sans-serif;
+  font-size: 18px;
+  color: #444;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.descripcion-producto-Salon {
+  font-family: 'Banda', sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.precio-producto-Salon {
+  display: block;
+  font-family: 'Banda', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--color_principal);
+}
+
+.vacio-Salon {
+  font-family: 'Banda', sans-serif;
+  font-size: 18px;
+  color: var(--color_principal);
+  text-align: center;
+  padding: 40px 0;
+}
+
+/* Media Querie */
+
+/* Celular */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .main-cartasSalon {
+    gap: 15px;
+    padding: 20px 0;
+  }
+
+  .cuadro-cartas-Salon {
+    width: 92%;
+    margin: 10px auto;
+    padding: 15px;
+  }
+
+  .titulo-Salon {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .grid-productos-Salon {
+    grid-template-columns: 1fr;
+  }
+
+  .imagen-producto-Salon {
+    height: 200px;
+  }
+
+  .nombre-producto-Salon {
+    font-size: 16px;
+  }
+
+  .descripcion-producto-Salon {
+    font-size: 13px;
+  }
+
+  .precio-producto-Salon {
+    font-size: 18px;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .main-cartasSalon {
+    gap: 20px;
+    padding: 30px 0;
+  }
+
+  .cuadro-cartas-Salon {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .titulo-Salon {
+    font-size: 38px;
+  }
+
+  .grid-productos-Salon {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Laptop */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .cuadro-cartas-Salon {
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  .titulo-Salon {
+    font-size: 42px;
+  }
+
+  .grid-productos-Salon {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* PC */
+@media screen and (min-width: 1281px) {
+  .main-cartasSalon {
+    gap: 20px;
+  }
+
+  .cuadro-cartas-Salon {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+  }
+
+  .titulo-Salon {
+    font-size: 46px;
+  }
+
+  .grid-productos-Salon {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
